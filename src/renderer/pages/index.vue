@@ -7,6 +7,11 @@
           <InfoWrapper v-if="isShowText" />
           <LevelSlider></LevelSlider>
           <SettingModal v-model='isShowSetting'></SettingModal>
+          <v-btn
+          class="close-btn"
+          absolute
+          @click="quit"
+          >おしまい</v-btn>
         </v-main>
       </v-app>
     </client-only>
@@ -14,6 +19,8 @@
 </template>
 
 <script>
+const {ipcRenderer} = require('electron');
+
 import LevelManager from '~/assets/scripts/level-manager.js'
 
 export default {
@@ -30,6 +37,9 @@ export default {
     update: function() {
       requestAnimationFrame(this.update)
       this.isShowText = LevelManager.levelStatus.isShowText
+    },
+    quit() {
+      ipcRenderer.send('quit')
     }
   }
 }
@@ -42,4 +52,8 @@ main
   height 800px
   font-family: 'Noto Sans CJK JP'
   font-weight bold
+
+  .close-btn
+    top 10px
+    left 10px
 </style>
