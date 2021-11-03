@@ -155,12 +155,12 @@ export default {
   right 20px
   top 20px
   z-index: 100
-  font-family: 'AXIS Std'
+  font-family: 'Noto Sans CJK JP'
   font-size 24px
   font-weight bold
 
 .btn-save
-  font-family: 'AXIS Std'
+  font-family: 'Noto Sans CJK JP'
   font-size 24px
   font-weight bold
 
@@ -168,7 +168,7 @@ export default {
   &__content
     padding 20px 30px
   &__title
-    font-family: 'AXIS Std'
+    font-family: 'Noto Sans CJK JP'
     font-size 24px
     font-weight bold
     text-align center

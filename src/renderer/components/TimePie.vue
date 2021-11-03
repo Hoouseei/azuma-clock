@@ -23,8 +23,12 @@ export default {
     align-items: center
 
 .time
+  font-family: 'Noto Sans CJK JP'
+  font-weight 600
   em
     font-size 28px
+    font-style normal
+    font-weight 800
     letter-spacing -1px
   // small
 </style>

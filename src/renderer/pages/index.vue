@@ -40,4 +40,6 @@ main
   position relative
   width 1280px
   height 800px
+  font-family: 'Noto Sans CJK JP'
+  font-weight bold
 </style>
