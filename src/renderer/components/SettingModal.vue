@@ -155,22 +155,16 @@ export default {
   right 20px
   top 20px
   z-index: 100
-  font-family: 'Noto Sans CJK JP'
   font-size 24px
-  font-weight bold
 
 .btn-save
-  font-family: 'Noto Sans CJK JP'
   font-size 24px
-  font-weight bold
 
 .v-list-item
   &__content
     padding 20px 30px
   &__title
-    font-family: 'Noto Sans CJK JP'
     font-size 24px
-    font-weight bold
     text-align center
 
 
