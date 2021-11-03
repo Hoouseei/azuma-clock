@@ -42,7 +42,7 @@ const macOS = {
 }
 
 module.exports = {
-  productName: 'app',
+  productName: 'べんきょう・とけい',
   appId: 'com.example.app',
   artifactName: 'setup-${version}.${ext}',
   directories: {
@@ -52,7 +52,7 @@ module.exports = {
   files: [
     'package.json',
     {
-      from: 'dist/main/',
+      from: 'dist/main',
       to: 'dist/main/'
     },
     {
