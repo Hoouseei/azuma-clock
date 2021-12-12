@@ -12,9 +12,9 @@
     "postinstall": "electron-builder install-app-deps "
   },
   "keywords": [],
-  "author": "Hoouseei <yoshida-hosei@blue-puddle.com>",
+  "author": "Hoouseei",
   "license": "MIT",
-  "homepage": "https://github.com/michalzaq12/electron-nuxt/blob/master/README.md",
+  "homepage": "https://github.com/Hoouseei/azuma-clock",
   "engines": {
     "node": ">=12.13.0"
   },
